@@ -1,0 +1,382 @@
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /*header start*/
+  .logo{
+       width: 50%;
+       margin-left: 90px;
+       margin-bottom: 10px;
+  }
+  .logo img{
+    
+}
+  .custom_nav .nav-item .nav-link {
+    padding-right: 4px;
+  
+}
+.h_social {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+  /*header end*/
+    /*about part start*/
+  .about_part {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  
+}
+.about_h1 {
+    font-size: 42px;
+    padding-bottom: 50px;
+}
+.about_p {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*about part end*/
+/*service start*/
+.service {
+    margin-top: 70px;
+}
+.srv_img{
+    text-align: center;
+
+}
+.intro_name h5 {
+    margin-right: 28px;
+
+}
+.srv_text {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.srv_text h1 {
+    font-size: 35px;
+    margin-left: -29px;
+}
+.srv_text p {
+    margin-left: -37px;
+    font-size: 16px;
+}
+
+/*service end*/
+/*menu start*/
+.menu{
+    background-position: start center;
+    height: 90vh;
+}
+.second_banner h1 {
+   font-size: 50px;
+    top: 122px;
+    right: 22px;
+}
+.second_banner h1:hover{
+    cursor: pointer;
+    transform: scale(.8);
+}
+/*menu end*/
+/*details css start*/
+.details_text{
+    text-align: center !important;
+}
+/*details css end*/
+/*footer start*/
+.footer{
+    margin-top: 50px;
+}
+.ftr_last{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.ftr_last h1{
+    font-size: 35px;
+    text-align: center;
+}
+.ftr_social {
+    margin-top: 40px;
+    margin-left: 7px;
+    text-align: center;
+    
+}
+.ftr_social ul li a{
+    font-size: 30px;
+    padding: 0 5px;
+}
+.ftr_number{
+    margin-top: 35px;
+    margin-left: 1px;
+    text-align: center;
+}
+.ftr_number ul li a{
+    font-size: 20px;
+
+}
+/*footer end*/
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*header start*/
+    .custom_nav .nav-item .nav-link {
+    padding-right: 0px;
+  
+}
+.h_social {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+  /*header end*/
+  /*about part start*/
+  .about_part {
+    padding-top: 70px;
+    padding-bottom: 80px;
+  
+}
+.about_h1 {
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+.about_p {
+    font-size: 15px;
+}
+/*about part end*/
+/*service start*/
+.service {
+    margin-top: 70px;
+}
+.srv_img{
+    text-align: center;
+
+}
+.intro_name {
+    margin-top: -58px;
+    margin-left: 87px;
+}
+.srv_text {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:60px;
+}
+.srv_text h1 {
+    font-size: 55px;
+    margin-left: -29px;
+}
+.srv_text p {
+    margin-left: -37px;
+    font-size: 18px;
+}
+
+/*service end*/
+/*menu start*/
+.menu{
+    background-position: start center;
+    height: 90vh;
+}
+.second_banner h1 {
+    font-size: 70px;
+    top: 114px;
+    right: 45px;
+}
+.second_banner h1:hover{
+    cursor: pointer;
+    transform: scale(.8);
+}
+/*menu end*/
+/*details css start*/
+.details_text{
+    text-align: center !important;
+}
+/*details css end*/
+/*footer start*/
+.ftr_last{
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.ftr_last h1{
+    font-size: 40px;
+    text-align: center;
+}
+.ftr_social {
+    margin-top: 50px;
+    margin-left: 7px;
+    text-align: center;
+    
+}
+.ftr_social ul li a{
+    font-size: 35px;
+    padding: 0 5px;
+}
+.ftr_number{
+    margin-top: 50px;
+    margin-left: 1px;
+    text-align: center;
+}
+.ftr_number ul li a{
+    font-size: 25px;
+
+}
+/*footer end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991.98px) {
+  /*header start*/
+  .custom_nav .nav-item .nav-link {
+    padding-right: 3px;
+    
+}
+.h_social {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+  /*header end*/
+  /*about part start*/
+  .about_part {
+    padding-top: 100px;
+    padding-bottom: 90px;
+  
+}
+.about_h1 {
+    font-size: 80px;
+}
+.about_p {
+    font-size: 18px;
+}
+/*about part end*/
+/*service start*/
+.service {
+    margin-top: 70px;
+}
+
+.intro_name {
+    margin-top: -58px;
+    margin-left: 50px;
+}
+.srv_text {
+    padding-left: 1px;
+    padding-top: 6px;
+}
+.srv_text h1 {
+    font-size: 40px;
+    margin-left: 60px;
+}
+.srv_text p {
+    margin-left: 60px;
+    font-size: 19px;
+}
+
+/*service end*/
+/*menu start*/
+.second_banner h1 {
+    font-size: 90px;
+    top: 114px;
+    right: 78px;
+}
+.second_banner h1:hover{
+    cursor: pointer;
+    transform: scale(.8);
+}
+/*menu end*/
+/*footer start*/
+.ftr_last h1{
+    font-size: 45px;
+    text-align: center;
+}
+.ftr_social {
+    margin-left: 7px;
+    text-align: center;
+    
+}
+.ftr_number{
+    margin-left: 1px;
+    text-align: center;
+}
+/*footer end*/
+
+ }
+
+/*Large devices (desktops, 992px and up)*/ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*header start*/
+.custom_nav .nav-item .nav-link {
+    padding-right: 30px;
+/*header end*/
+}
+.h_social {
+    text-align: center;
+}
+/*about part start*/
+.about_h1 {
+    font-size: 85px;
+}
+.about_p {
+    font-size: 24px;
+}
+/*about part end*/
+/*service start*/
+.service {
+    margin-top: 80px;
+}
+
+.intro_name {
+    margin-top: -58px;
+    margin-left: 30px;
+}
+.srv_text {
+    padding-left: 1px;
+    padding-top: 0px;
+}
+.srv_text h1 {
+    font-size: 50px;
+    margin-left: 60px;
+}
+.srv_text p {
+    margin-left: 60px;
+    font-size: 23px;
+    color: #1C1C1B;
+}
+/*service end*/
+/*menu start*/
+.second_banner h1{
+    top: 100px;
+}
+.second_banner h1:hover{
+    cursor: pointer;
+    transform: scale(.8);
+}
+/*menu end*/
+/*footer start*/
+.ftr_last h1{
+    font-size: 45px;
+}
+.ftr_social {
+    margin-left: 7px;
+    
+}
+/*footer end*/
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*menu start*/
+.second_banner h1{
+    top: 200px;
+}
+.second_banner h1:hover{
+    cursor: pointer;
+    transform: scale(.8);
+}
+/*menu end*/
+
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+ }

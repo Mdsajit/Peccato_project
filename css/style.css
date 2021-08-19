@@ -1,0 +1,256 @@
+@font-face{
+	font-family:'PTSans-Regular';
+	src: url(../fonts/PTSans/PTSans-Regular.ttf);
+}
+@font-face{
+	font-family: 'Lato-Bold';
+	src:url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face{
+	font-family: 'Lato-Regular';
+	src:url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: 'Lato-Regular';
+	src:url(../fonts/Lato/Lato-Regular.ttf);
+}@font-face{
+	font-family: 'PTSans-Regular';
+	src:url(../fonts/Lato/Lato-Regular.ttf);
+}
+/*common css start*/
+body{
+	font-family:Lato-Bold;
+	font-size: 33px;
+}
+/*common css end*/
+/*header part start*/
+.header{}
+.logo{
+	width: 100%;
+}
+.logo img{
+
+}
+.custom_nav{
+	background-color:#D3182D;
+	position: relative;
+	top:15px;
+
+}
+
+.custom_nav .nav-item .nav-link{
+	padding: 15px 0px 18px;
+	padding-right: 45px;
+	color: #ffffff;
+	font-size: 20px;
+	position: relative;
+	text-transform: uppercase;
+	transition: .4s;
+	
+}
+.h_social{
+	margin-right: 15px;
+	padding-left: 100px;
+}
+.h_social ul li{
+	display: inline-block;
+}
+.h_social ul li a{
+	margin-right: 5px;
+	font-size: 20px;
+	width:22px;
+	height:15px;
+	line-height: 35px;
+	text-align: center;
+	color:#ffffff;
+	cursor: pointer;
+ 
+}
+.navbar-toggler {
+    font-size: 25px;
+    line-height: 1;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+    background: #D3182D;
+}
+
+
+.h_social ul li a:hover{
+}
+/*header part end*/
+/*banner part start*/
+.ban_ig{
+	background: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+     height: 75vh;
+     margin-top: 10px;
+}
+/*banner part end*/
+/*about part start*/
+.about{
+	margin-top: 35px;
+}
+.about_part{
+	padding-top: 130px;
+	padding-bottom: 105px;
+	background: #D3182D;
+	text-align: center;
+}
+.about_h1{
+	font-family: 'PTSans-Regular' !important;
+	padding-bottom: 70px;
+	font-size: 90px;
+	color: #ffffff;
+}
+.about_p{
+	font-family: 'PTSans-Regular';
+	font-size: 25px;
+	color: #ffffff;
+	padding-left: 90px;
+	padding-right: 90px;
+}
+/*about part end*/
+/*service start*/
+.service{
+	margin-top: 100px;
+}
+.srv_img{
+}
+.srv_img img{
+	width: 100%;
+  }
+.intro_name{
+    margin-top: -58px;
+    margin-left: 30px; 
+}
+.intro_name h5{
+  font-family: 'Lato-Bold';
+  font-size: 18px;
+  color: #ffffff;
+  background-color:#D3182D;
+  
+}
+.srv_text{
+	padding-top: 80px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+     padding-right: 10px;
+}
+.srv_text h1{
+	font-family: 'Lato-Regular';
+	font-size: 50px;
+	color: #D3182D;
+}
+.srv_text p{
+	font-family:'Lato-Regular';
+	font-size: 25px;
+	color: #1C1C1B;
+	margin-top: 30px;
+}
+/*service end*/
+/*menu start*/
+.menu{
+	background: url(../images/last.jpg);
+	background-repeat: no-repeat;
+	background-position: start;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+    height: 100vh;
+}
+.second_banner h1{
+	font-size: 120px;
+	color: #ffffff;
+	font-family: 'Lato-Bold';
+    text-transform: uppercase;
+	align-items: center;
+	position: absolute;
+	right: 120px;
+	top: 250px;
+	transition: .3s;
+}
+.second_banner h1:hover{
+	cursor: pointer;
+	transform: scale(.8);
+}
+/*menu end*/
+/*details css start*/
+.details_one{}
+.img_one{
+	margin-top: 100px;
+}
+.img_one img{
+	width: 100%;
+}
+.details_text{}
+.details_text h1{
+	font-family: PTSans-Regular;
+	color: #b51e30;
+	margin-top: 60px;
+	transition: .4s;
+	cursor: pointer;
+}
+.details_text h1:hover{
+	transform: scale(1.2);
+}
+.details_text p{
+	font-size: 16px;
+	color: #222221;
+	margin-top: 35px;
+}
+/*details css end*/
+/*footer css start*/
+.footer{
+	margin-top: 90px;
+	background-color: #D3182D;
+}
+.ftr_last{
+	padding-top: 130px;
+	padding-bottom: 120px;
+}
+.ftr_last h1{
+	color: white;
+	font-size: 50px;
+}
+.ftr_social{
+	margin-left: 15px;
+	margin-top: 70px;
+}
+.ftr_social ul li{}
+.ftr_social ul li a{
+	color: white;
+	font-size: 40px;
+	padding: 0 10px;
+	display: inline-block;
+	cursor: pointer;
+	transition: .4s;
+}
+.ftr_social ul li a:hover{
+	transform: rotate(200deg);
+	color: #D3182D;
+	background: #ffffff;
+}
+.ftr_number{
+	margin-left: 38px;
+	margin-top: 70px;
+}
+.ftr_number ul li{
+	display: inline-block;
+}
+.ftr_number ul li a{
+	font-size: 28px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	transition: .4s;
+}
+.ftr_number ul li a:hover{
+	transform: scale(.8);
+}
+/*footer css end*/
+
